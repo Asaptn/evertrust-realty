@@ -165,10 +165,15 @@ export default function HomePage() {
           <img src="/images/cm6622l/cm6622-1.jpg" alt="CM6622L" className="w-full h-full object-cover" />
           <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$70,000</div>
           
-          {/* Arrows - Fixed for Mobile Visibility */}
-          <button className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">←</button>
-          <button className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">→</button>
-        </div>
+          {/* Modified Arrows */}
+  <button className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/90 p-2 rounded-full shadow-md flex items-center justify-center pointer-events-auto">
+    <span className="text-gray-900 text-xs">←</span>
+  </button>
+  
+  <button className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/90 p-2 rounded-full shadow-md flex items-center justify-center pointer-events-auto">
+    <span className="text-gray-900 text-xs">→</span>
+  </button>
+</div>
         <div className="p-6 flex flex-col flex-grow text-gray-900">
           <h3 className="text-xl font-bold mb-1">Mobile Home – CM6622L</h3>
           <p className="text-sm text-gray-500 mb-3">2-bedrooms, 2-bathrooms</p>
