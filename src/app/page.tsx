@@ -142,9 +142,7 @@ export default function HomePage() {
   </div>
 </section>
 {/* ================= FEATURED HOMES ================= */}
-<section
-id="featured-homes"
-className="bg-white py-10 sm:py-14 lg:py-20">
+<section id="featured-homes" className="bg-white py-10 sm:py-14 lg:py-20">
   <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
     {/* Header */}
@@ -152,155 +150,81 @@ className="bg-white py-10 sm:py-14 lg:py-20">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight">
         Featured Homes
       </h2>
-
       <div className="w-14 h-1 bg-green-600 mx-auto mt-3 mb-4 rounded-full" />
-
       <p className="text-gray-600 max-w-xl mx-auto text-sm sm:text-base">
         Explore some of our most popular mobile homes available nationwide.
       </p>
     </div>
 
     {/* Homes Grid */}
-   {/* Replace your existing Featured Homes grid with this entire block */}
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-  
-  {/* Card 1: CM6622L */}
-  <button
-  className="
-    absolute left-2 top-1/2 -translate-y-1/2
-    bg-black/60 text-white
-    p-2 rounded-full
-    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
-    z-10
-  "
->
-  ‹
-</button>
-
-<button
-  className="
-    absolute right-2 top-1/2 -translate-y-1/2
-    bg-black/60 text-white
-    p-2 rounded-full
-    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
-    z-10
-  "
->
-  ›
-</button>
-
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
-    <div className="relative h-[220px]">
-      <img src="/images/cm6622l/cm6622-1.jpg" alt="CM6622L" className="w-full h-full object-cover" />
-      <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$70,000</div>
-    </div>
-    <div className="p-6 flex flex-col flex-grow">
-      <h3 className="text-xl font-bold text-gray-900 mb-1">Mobile Home for Sale – CM6622L</h3>
-      <p className="text-sm text-gray-500 font-medium mb-3">Spacious 2-bedrooms, 2-bathrooms</p>
-      <div className="space-y-2 mb-6 flex-grow">
-        <p className="text-gray-600 text-sm">✅ Delivery and setup available</p>
-        <p className="text-gray-600 text-sm">✅ Flexible payment plans offered</p>
-        <p className="text-gray-600 text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      {/* Card 1: CM6622L */}
+      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col group">
+        <div className="relative h-[220px]">
+          <img src="/images/cm6622l/cm6622-1.jpg" alt="CM6622L" className="w-full h-full object-cover" />
+          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$70,000</div>
+          
+          {/* Arrows - Fixed for Mobile Visibility */}
+          <button className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">←</button>
+          <button className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">→</button>
+        </div>
+        <div className="p-6 flex flex-col flex-grow text-gray-900">
+          <h3 className="text-xl font-bold mb-1">Mobile Home – CM6622L</h3>
+          <p className="text-sm text-gray-500 mb-3">2-bedrooms, 2-bathrooms</p>
+          <div className="space-y-2 mb-6 flex-grow">
+            <p className="text-sm text-gray-700">✅ Delivery and setup available</p>
+            <p className="text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
+          </div>
+          <div className="mt-auto">
+            <a href="/homes/cm6622l" className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
+          </div>
+        </div>
       </div>
-      <div className="flex flex-col gap-3 mt-auto">
-        <a href="/homes/cm6622l" className="text-center bg-gray-900 text-white py-2 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
-       
+
+      {/* Card 2: RC2758 */}
+      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col group">
+        <div className="relative h-[220px]">
+          <img src="/images/rc2758/rc2758-1.jpg" alt="RC2758" className="w-full h-full object-cover" />
+          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$150,000</div>
+          <button className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">←</button>
+          <button className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">→</button>
+        </div>
+        <div className="p-6 flex flex-col flex-grow text-gray-900">
+          <h3 className="text-xl font-bold mb-1">Mobile Home – RC2758</h3>
+          <p className="text-sm text-gray-500 mb-3">3-bedroom, 3-bathroom</p>
+          <div className="space-y-2 mb-6 flex-grow">
+            <p className="text-sm text-gray-700">✅ Delivery and setup available</p>
+            <p className="text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
+          </div>
+          <div className="mt-auto">
+            <a href="/homes/rc2758" className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  {/* Card 2: RC2758 */}
-  <button
-  className="
-    absolute left-2 top-1/2 -translate-y-1/2
-    bg-black/60 text-white
-    p-2 rounded-full
-    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
-    z-10
-  "
->
-  ‹
-</button>
-
-<button
-  className="
-    absolute right-2 top-1/2 -translate-y-1/2
-    bg-black/60 text-white
-    p-2 rounded-full
-    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
-    z-10
-  "
->
-  ›
-</button>
-
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
-    <div className="relative h-[220px]">
-      <img src="/images/rc2758/rc2758-1.jpg" alt="RC2758" className="w-full h-full object-cover" />
-      <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$150,000</div>
-    </div>
-    <div className="p-6 flex flex-col flex-grow">
-      <h3 className="text-xl font-bold text-gray-900 mb-1">Mobile Home for Sale – RC2758</h3>
-      <p className="text-sm text-gray-500 font-medium mb-3">Spacious 3-bedroom, 3-bathroom</p>
-      <div className="space-y-2 mb-6 flex-grow">
-        <p className="text-gray-600 text-sm">✅ Delivery and setup available</p>
-        <p className="text-gray-600 text-sm">✅ Flexible payment plans offered</p>
-        <p className="text-gray-600 text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
+      {/* Card 3: La Jolla */}
+      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col group">
+        <div className="relative h-[220px]">
+          <img src="/images/la-jolla/la-jolla-1.jpg" alt="La Jolla" className="w-full h-full object-cover" />
+          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$185,000</div>
+          <button className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">←</button>
+          <button className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">→</button>
+        </div>
+        <div className="p-6 flex flex-col flex-grow text-gray-900">
+          <h3 className="text-xl font-bold mb-1">Mobile Home – La Jolla</h3>
+          <p className="text-sm text-gray-500 mb-3">4-bedroom, 3-bathroom</p>
+          <div className="space-y-2 mb-6 flex-grow">
+            <p className="text-sm text-gray-700">✅ Delivery and setup available</p>
+            <p className="text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
+          </div>
+          <div className="mt-auto">
+            <a href="/homes/la-jolla" className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
+          </div>
+        </div>
       </div>
-      <div className="flex flex-col gap-3 mt-auto">
-        <a href="/homes/rc2758" className="text-center bg-gray-900 text-white py-2 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
-       
-      </div>
+
     </div>
-  </div>
-
-  {/* Card 3: La Jolla */}
-  <button
-  className="
-    absolute left-2 top-1/2 -translate-y-1/2
-    bg-black/60 text-white
-    p-2 rounded-full
-    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
-    z-10
-  "
->
-  ‹
-</button>
-
-<button
-  className="
-    absolute right-2 top-1/2 -translate-y-1/2
-    bg-black/60 text-white
-    p-2 rounded-full
-    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
-    z-10
-  "
->
-  ›
-</button>
-
-  <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
-    <div className="relative h-[220px]">
-      <img src="/images/la-jolla/la-jolla-1.jpg" alt="La Jolla" className="w-full h-full object-cover" />
-      <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$185,000</div>
-    </div>
-    <div className="p-6 flex flex-col flex-grow">
-      <h3 className="text-xl font-bold text-gray-900 mb-1">Mobile Home for Sale – La Jolla</h3>
-      <p className="text-sm text-gray-500 font-medium mb-3">Spacious 4-bedroom, 3-bathroom</p>
-      <div className="space-y-2 mb-6 flex-grow">
-        <p className="text-gray-600 text-sm">✅ Delivery and setup available</p>
-        <p className="text-gray-600 text-sm">✅ Flexible payment plans offered</p>
-        <p className="text-gray-600 text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
-      </div>
-      <div className="flex flex-col gap-3 mt-auto">
-        <a href="/homes/la-jolla" className="text-center bg-gray-900 text-white py-2 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
-        
-      </div>
-    </div>
-  </div>
-
-</div>
-
   </div>
 </section>
 {/* WHY CHOOSE EVERTRUST REALTY */}

@@ -11,23 +11,20 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
         {/* TEXT LOGO */}
-       <Link
-  href="/"
-  className="flex items-center shrink-0 whitespace-nowrap"
->
-  <span className="font-bold text-xl sm:text-2xl min-w-max">
-    <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+       {/* --- UPDATED LOGO SECTION --- */}
+<Link href="/" className="flex items-center shrink-0 min-w-max">
+  <span className="font-bold text-xl sm:text-2xl flex flex-wrap items-center">
+    <span className="bg-gradient-to-r from-green-600 to-green-500 text-white px-2 py-1 rounded-l-md">
       Ever
     </span>
-    <span className="ml-1 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+    <span className="bg-gradient-to-r from-blue-700 to-blue-600 text-white px-2 py-1 rounded-r-md ml-0.5">
       Trust
     </span>
-    <span className="ml-2 text-white hidden sm:inline">
+    <span className="ml-2 text-gray-900 hidden xs:inline-block tracking-tighter">
       REALTY
     </span>
   </span>
 </Link>
-
         
 
         {/* DESKTOP NAV */}
