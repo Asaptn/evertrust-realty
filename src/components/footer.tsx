@@ -30,7 +30,7 @@ export default function Footer() {
           <h4 className="font-semibold text-white mb-3">Contact</h4>
           <ul className="space-y-2 text-sm">
             <li>📞 (302) 230-1063</li>
-            <li>📧 info@evertrustrealty.com</li>
+            <li>📧 homes@evertrustrealty.site</li>
             <li>📍7189 4th Street
 Houston, TX 77087 – USA</li>
           </ul>
