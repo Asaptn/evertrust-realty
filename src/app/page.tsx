@@ -158,74 +158,103 @@ export default function HomePage() {
 
     {/* Homes Grid */}
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      {/* Card 1: CM6622L */}
-      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col group">
+
+      {/* Card 1 */}
+      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
         <div className="relative h-[220px]">
-          <img src="/images/cm6622l/cm6622-1.jpg" alt="CM6622L" className="w-full h-full object-cover" />
-          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$70,000</div>
-          
-          {/* Modified Arrows */}
-  <button className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/90 p-2 rounded-full shadow-md flex items-center justify-center pointer-events-auto">
-    <span className="text-gray-900 text-xs">←</span>
-  </button>
-  
-  <button className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/90 p-2 rounded-full shadow-md flex items-center justify-center pointer-events-auto">
-    <span className="text-gray-900 text-xs">→</span>
-  </button>
-</div>
+          <img
+            src="/images/cm6622l/cm6622-1.jpg"
+            alt="CM6622L"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">
+            $70,000
+          </div>
+        </div>
+
         <div className="p-6 flex flex-col flex-grow text-gray-900">
           <h3 className="text-xl font-bold mb-1">Mobile Home – CM6622L</h3>
           <p className="text-sm text-gray-500 mb-3">2-bedrooms, 2-bathrooms</p>
+
           <div className="space-y-2 mb-6 flex-grow">
-            <p className="text-sm text-gray-700">✅ Delivery and setup available</p>
-            <p className="text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
+            <p className="text-sm">✅ Delivery and setup available</p>
+            <p className="text-sm font-semibold text-green-700">
+              💰 Only 10% down payment required
+            </p>
           </div>
-          <div className="mt-auto">
-            <a href="/homes/cm6622l" className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
-          </div>
+
+          <a
+            href="/homes/cm6622l"
+            className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition"
+          >
+            View Details
+          </a>
         </div>
       </div>
 
-      {/* Card 2: RC2758 */}
-      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col group">
+      {/* Card 2 */}
+      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
         <div className="relative h-[220px]">
-          <img src="/images/rc2758/rc2758-1.jpg" alt="RC2758" className="w-full h-full object-cover" />
-          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$150,000</div>
-          <button className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">←</button>
-          <button className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">→</button>
+          <img
+            src="/images/rc2758/rc2758-1.jpg"
+            alt="RC2758"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">
+            $150,000
+          </div>
         </div>
+
         <div className="p-6 flex flex-col flex-grow text-gray-900">
           <h3 className="text-xl font-bold mb-1">Mobile Home – RC2758</h3>
-          <p className="text-sm text-gray-500 mb-3">3-bedroom, 3-bathroom</p>
+          <p className="text-sm text-gray-500 mb-3">3-bedrooms, 3-bathrooms</p>
+
           <div className="space-y-2 mb-6 flex-grow">
-            <p className="text-sm text-gray-700">✅ Delivery and setup available</p>
-            <p className="text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
+            <p className="text-sm">✅ Delivery and setup available</p>
+            <p className="text-sm font-semibold text-green-700">
+              💰 Only 10% down payment required
+            </p>
           </div>
-          <div className="mt-auto">
-            <a href="/homes/rc2758" className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
-          </div>
+
+          <a
+            href="/homes/rc2758"
+            className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition"
+          >
+            View Details
+          </a>
         </div>
       </div>
 
-      {/* Card 3: La Jolla */}
-      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col group">
+      {/* Card 3 */}
+      <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
         <div className="relative h-[220px]">
-          <img src="/images/la-jolla/la-jolla-1.jpg" alt="La Jolla" className="w-full h-full object-cover" />
-          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">$185,000</div>
-          <button className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">←</button>
-          <button className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-md md:opacity-0 group-hover:opacity-100 transition-opacity">→</button>
+          <img
+            src="/images/la-jolla/la-jolla-1.jpg"
+            alt="La Jolla"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-md">
+            $185,000
+          </div>
         </div>
+
         <div className="p-6 flex flex-col flex-grow text-gray-900">
           <h3 className="text-xl font-bold mb-1">Mobile Home – La Jolla</h3>
-          <p className="text-sm text-gray-500 mb-3">4-bedroom, 3-bathroom</p>
+          <p className="text-sm text-gray-500 mb-3">4-bedrooms, 3-bathrooms</p>
+
           <div className="space-y-2 mb-6 flex-grow">
-            <p className="text-sm text-gray-700">✅ Delivery and setup available</p>
-            <p className="text-sm font-semibold text-green-700">💰 Only 10% down payment required</p>
+            <p className="text-sm">✅ Delivery and setup available</p>
+            <p className="text-sm font-semibold text-green-700">
+              💰 Only 10% down payment required
+            </p>
           </div>
-          <div className="mt-auto">
-            <a href="/homes/la-jolla" className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition-colors">View Details</a>
-          </div>
+
+          <a
+            href="/homes/la-jolla"
+            className="block text-center bg-gray-900 text-white py-2.5 rounded-lg font-medium hover:bg-black transition"
+          >
+            View Details
+          </a>
         </div>
       </div>
 
