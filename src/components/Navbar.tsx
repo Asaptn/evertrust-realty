@@ -11,19 +11,24 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
         {/* TEXT LOGO */}
-        <Link href="/" className="flex items-center min-w-0">
-          <span className="font-bold text-xl sm:text-2xl whitespace-nowrap">
-            <span className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent">
-              Ever
-            </span>
-            <span className="ml-1 bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-              Trust
-            </span>
-            <span className="ml-2 text-white hidden sm:inline tracking-[0.25em] text-sm">
-              REALTY
-            </span>
-          </span>
-        </Link>
+       <Link
+  href="/"
+  className="flex items-center shrink-0 whitespace-nowrap"
+>
+  <span className="font-bold text-xl sm:text-2xl min-w-max">
+    <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+      Ever
+    </span>
+    <span className="ml-1 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+      Trust
+    </span>
+    <span className="ml-2 text-white hidden sm:inline">
+      REALTY
+    </span>
+  </span>
+</Link>
+
+        
 
         {/* DESKTOP NAV */}
         <nav className="hidden md:flex gap-8 text-white font-medium">

@@ -165,6 +165,30 @@ className="bg-white py-10 sm:py-14 lg:py-20">
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
   
   {/* Card 1: CM6622L */}
+  <button
+  className="
+    absolute left-2 top-1/2 -translate-y-1/2
+    bg-black/60 text-white
+    p-2 rounded-full
+    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+    z-10
+  "
+>
+  ‹
+</button>
+
+<button
+  className="
+    absolute right-2 top-1/2 -translate-y-1/2
+    bg-black/60 text-white
+    p-2 rounded-full
+    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+    z-10
+  "
+>
+  ›
+</button>
+
   <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
     <div className="relative h-[220px]">
       <img src="/images/cm6622l/cm6622-1.jpg" alt="CM6622L" className="w-full h-full object-cover" />
@@ -186,6 +210,30 @@ className="bg-white py-10 sm:py-14 lg:py-20">
   </div>
 
   {/* Card 2: RC2758 */}
+  <button
+  className="
+    absolute left-2 top-1/2 -translate-y-1/2
+    bg-black/60 text-white
+    p-2 rounded-full
+    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+    z-10
+  "
+>
+  ‹
+</button>
+
+<button
+  className="
+    absolute right-2 top-1/2 -translate-y-1/2
+    bg-black/60 text-white
+    p-2 rounded-full
+    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+    z-10
+  "
+>
+  ›
+</button>
+
   <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
     <div className="relative h-[220px]">
       <img src="/images/rc2758/rc2758-1.jpg" alt="RC2758" className="w-full h-full object-cover" />
@@ -207,6 +255,30 @@ className="bg-white py-10 sm:py-14 lg:py-20">
   </div>
 
   {/* Card 3: La Jolla */}
+  <button
+  className="
+    absolute left-2 top-1/2 -translate-y-1/2
+    bg-black/60 text-white
+    p-2 rounded-full
+    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+    z-10
+  "
+>
+  ‹
+</button>
+
+<button
+  className="
+    absolute right-2 top-1/2 -translate-y-1/2
+    bg-black/60 text-white
+    p-2 rounded-full
+    opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+    z-10
+  "
+>
+  ›
+</button>
+
   <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 flex flex-col">
     <div className="relative h-[220px]">
       <img src="/images/la-jolla/la-jolla-1.jpg" alt="La Jolla" className="w-full h-full object-cover" />
