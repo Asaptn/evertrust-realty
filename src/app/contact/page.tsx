@@ -58,7 +58,7 @@ export default function ContactPage() {
 
         {/* Contact Info */}
         <div className="mt-8 border-t pt-6 text-sm text-gray-700 space-y-2">
-          <p>📞 Phone: (302) 230-1063</p>
+          <p>📞 Phone: (302) 237-35587</p>
           <p>📧 Email: homes@evertrustrealty.site</p>
         </div>
       </div>
