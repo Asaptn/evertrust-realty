@@ -35,7 +35,7 @@ export default function HomePage() {
 
   {/* SMS Button - Replace with your real number */}
   <a 
-    href="sms:+13022301063?body=Hi, I would like to request a quote." 
+    href="sms:+130223735587?body=Hi, I would like to request a quote." 
     className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-semibold transition-colors"
   >
     Request a Quote
@@ -458,7 +458,7 @@ export default function HomePage() {
 </section>
 {/* ================= FLOATING TEXT US BUTTON ================= */}
 <a
-  href="sms:+13022301063"
+  href="sms:+130223735587"
   className="fixed bottom-5 right-5 z-50 bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-full shadow-lg flex items-center gap-2 font-semibold transition"
 >
  💬 Chat With Us
